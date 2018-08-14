@@ -1,24 +1,19 @@
-# README
+# Le Site du Nico
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bienvenue sur le repo qui contient tous les fichiers nécessaires pour mon super site bientôt exposé au Louvre !  
 
-Things you may want to cover:
+Le lien heroku : https://le-site-du-nicoc.herokuapp.com/
 
-* Ruby version
+## Prérequis
 
-* System dependencies
+Ruby 2.5.1
+Rails 5.2.0
+HTML 5
+CSS 3
 
-* Configuration
+## En local
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```git clone```
+```bundle install```
+```rails db:create```
+```rails server```
