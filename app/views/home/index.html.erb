@@ -3,13 +3,13 @@
     <nav>
       <div class="nav-left">
         <ul>
-          <li><img src="/assets/nico-tag.png" class="logo" width="50px" height="50px"></li>
+          <li><%= image_tag "nico-tag.png", class:"logo", width:"50px", height:"50px" %></li>
           <li>Le site du Nico</li>
       </div>
       <div class="nav-right">
         <ul>
           <li>Nicolas Culerier</li>
-          <li><img src="/assets/Garen.png" id="avatar" width="50px" height="50px"></li>
+          <li><%= image_tag "Garen.png", id:"avatar", width:"50px", height:"50px" %></li>
         </ul>
       </div>
   </nav>
@@ -34,7 +34,7 @@
         <p>#MonPremierProjetFront</p>
       </div>
       <div class="card-avatar">
-        <img id="moi" class="center" src="/assets/moi.jpg" width="74" height="101" alt="profile"><br>
+        <%= image_tag "/assets/moi.jpg", id:"moi", class:"center", width:"74", height:"101", alt:"profile" %><br>
       </div>
       <p id="description">Moussaillon session 5 Paris</p>
       <button  id="bouton" class="center" type="btn-blue">ça va être tout noir !</button>
@@ -42,11 +42,11 @@
       <div class="introduction">
         <h2>Moi en quelques mots</h2>
         <p><strong>Passions pros :</strong> Finance d'entreprise, M&A, Tech/Fintech et Commmerce International (langues, cultures...) 🇫🇷 🇪🇸 🇰🇷 🇺🇸 🇬🇧</p><br>
-        <img class="center" src="/assets/picsou-uncle.gif" alt="picsou"><br>
+        <%= image_tag "/assets/picsou-uncle.gif", class:"center", alt:"picsou" %><br>
         <p><strong>Sports :</strong> Muscu, Equitation, Foot </p><br>
-        <img class="center" src="/assets/arnold.gif" alt="arnold"><br>
+        <%= image_tag "/assets/arnold.gif", class:"center", alt:"arnold" %><br>
         <p><strong>A mes heures perdues :</strong> League of Legends</p><br>
-        <img class="center" src="/assets/logolol.jpg" alt="league">
+        <%= image_tag "/assets/logolol.jpg", class:"center", alt="league" %>
       </div>
   <footer>
     <ul>
