@@ -1,0 +1,35 @@
+.card{
+  background-color: #69A2B0;
+  width: 250px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#moi{
+  border-radius: 100px;
+}
+
+#bouton{
+  height: 30px;
+  width: 150px;
+  background-color: #2B3A67;
+  color: white;
+  border: none;
+}
+
+#bouton:hover{
+  font-weight: bold;
+  border: solid 1px;
+  border-color: white;
+}
+.card-category{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#description{
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+header{
+  background-color: #B56B45;
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo{
+  border-radius: 10px;
+}
+
+#avatar{
+  border-radius: 25px;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left{
+  width: 50%;
+}
+
+.nav-right{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}

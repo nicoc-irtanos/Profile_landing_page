@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+
+ul{
+  list-style-type: none;
+ 	display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 0 0;
+}
+
+li{
+  margin: 0 10px 0 0;
+  padding-left: 0;
+}
+
+.main{
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #81B29A;
+  width: 100%;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
