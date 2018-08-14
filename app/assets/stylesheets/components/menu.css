@@ -1,12 +1,36 @@
-.menu{
-  display: flex;
-  justify-content: center;
-  background-color: #E07A5F;
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+
+.pc-tab > input,
+.pc-tab section > div {
+  display: none;
 }
 
-.tab-content{
-    display: none;
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3 {
+  display: block;
 }
-.tab-content:target {
-    display: block;
+
+#tab1:checked ~ nav .tab1,
+#tab2:checked ~ nav .tab2,
+#tab3:checked ~ nav .tab3 {
+  color: red;
+}
+
+.pc-tab {
+  ul {
+    list-style: none;
+  li {
+    label {
+    font-family: "Raleway";
+  section {
+    font-family: "Droid Serif";
+  h2 {
+    font-family: "Raleway";
+      }
+    }
+    }
+  }
+  }
 }
